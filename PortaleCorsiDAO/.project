@@ -4,6 +4,10 @@
 	<comment></comment>
 	<projects>
 		<project>PortaleCorsi</project>
+<<<<<<< HEAD
+=======
+		<project>PortaleCorsiEJBClient</project>
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 		<project>PortaleCorsiEJB</project>
 	</projects>
 	<buildSpec>

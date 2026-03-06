@@ -11,7 +11,10 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<javaee.version>8.0</javaee.version>
 	</properties>
+<<<<<<< HEAD
 	
+=======
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 	<dependencies>
 		<!-- Java EE API (EJB + JPA + JAX-RS + CDI ecc.) -->
 		<dependency>
@@ -39,8 +42,11 @@
 					<generateApplicationXml>true</generateApplicationXml>
 					<version>8</version>
 					<defaultLibBundleDir>lib</defaultLibBundleDir>
+<<<<<<< HEAD
 					
 					
+=======
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 				</configuration>
 			</plugin>
 			<!-- Compiler per JDK 11 -->

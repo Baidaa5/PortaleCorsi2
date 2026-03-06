@@ -7,7 +7,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+<<<<<<< HEAD
 import jakarta.persistence.ManyToOne;
+=======
+import jakarta.persistence.ManyToMany;
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 
 @Entity
 public class CorsoUtente {
@@ -16,11 +20,19 @@ public class CorsoUtente {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+<<<<<<< HEAD
 	@ManyToOne
 	@JoinColumn(name = "id_corso")
 	private Corso id_corso;
 	
 	@ManyToOne
+=======
+	@ManyToMany
+	@JoinColumn(name = "id_corso")
+	private Corso id_corso;
+	
+	@ManyToMany
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 	@JoinColumn(name = "id_studente")
 	private Utente id_studente;
 

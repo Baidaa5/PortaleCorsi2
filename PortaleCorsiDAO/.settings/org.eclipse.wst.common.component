@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
         
     <wb-module deploy-name="PortaleCorsiDAO">
                 
@@ -6,4 +7,18 @@
             
     </wb-module>
     
+=======
+    <wb-module deploy-name="PortaleCorsiDAO">
+        <wb-resource deploy-path="/" source-path="/src/main/java"/>
+        <dependent-module archiveName="PortaleCorsi.jar" deploy-path="/" handle="module:/resource/PortaleCorsi/PortaleCorsi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PortaleCorsiEJBClient.jar" deploy-path="/" handle="module:/resource/PortaleCorsiEJBClient/PortaleCorsiEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PortaleCorsiEJB.jar" deploy-path="/" handle="module:/resource/PortaleCorsiEJB/PortaleCorsiEJB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 </project-modules>

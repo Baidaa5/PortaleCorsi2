@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
             
     
     <wb-module deploy-name="PortaleCorsiEJBEAR-0.0.1-SNAPSHOT">
@@ -27,4 +28,15 @@
     </wb-module>
         
 
+=======
+        
+    <wb-module deploy-name="PortaleCorsiEJBEAR-0.0.1-SNAPSHOT">
+                
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+                
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+            
+    </wb-module>
+    
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 </project-modules>

@@ -7,7 +7,10 @@ import model.entity.Utente;
 
 @Stateless
 public class UtenteDAO {
+<<<<<<< HEAD
 	
+=======
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 	//unitName combacia con il nome del persist-unit
 	@PersistenceContext(unitName = "PortaleCorsiDAO")						//inietto EntityManager
 	private EntityManager entityManager;
@@ -23,4 +26,7 @@ public class UtenteDAO {
 	
 	
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6

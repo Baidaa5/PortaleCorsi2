@@ -4,9 +4,16 @@
 	<comment></comment>
 	<projects>
 		<project>PortaleCorsiEJB</project>
+<<<<<<< HEAD
 		<project>PortaleCorsiREST</project>
 		<project>PortaleCorsiDAO</project>
 		<project>PortaleCorsi</project>
+=======
+		<project>PortaleCorsiEJBClient</project>
+		<project>PortaleCorsi</project>
+		<project>PortaleCorsiDAO</project>
+		<project>PortaleCorsiREST</project>
+>>>>>>> e64a9d191fd9ac9130f762a6ab119f7b36c7adc6
 	</projects>
 	<buildSpec>
 		<buildCommand>
